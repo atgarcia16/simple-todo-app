@@ -13,7 +13,7 @@ jobs:
     runs-on: macos-latest
     
     steps:
-    - uses: action/checkout@v2
+    - uses: actions/checkout@v2
       name: prueba tp 1
     - name: Run a one-line script
       run: echo ¡Prueba TP1 DevOps!
