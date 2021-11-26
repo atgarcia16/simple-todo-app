@@ -1,8 +1,9 @@
 name: TP1.2
 
 on: 
+
   pull_request:
-    brunches: [master]
+    branches: [master]
     
 jobs:
   build:
