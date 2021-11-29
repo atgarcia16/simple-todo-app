@@ -62,7 +62,7 @@ public class UserServiceImplTest
         doReturn(true).when(userRepository).existsUserByUsername(VALID_USER.getUsername());
 
         //when
-        assertThrows(Exception.class, ()->userService.createUser(VALID_USER));
+        assertThrows(Exception.class, ()->userService.createUser(NOT_VALID_USER));
     }
 
 
